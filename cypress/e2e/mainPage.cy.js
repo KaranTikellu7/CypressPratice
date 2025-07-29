@@ -1,7 +1,11 @@
+import MainPage from '../support/pages/mainPage'
+
 describe('Main page', () => {
+  const mainPage = new MainPage()
+ 
   it('Verify Main Page', () => {
     cy.visit('/')
 
-    cy.xpath('//div[@class="nav-links "]').should('be.exist')
+    mainPage.verifyNavLinks()
   })
 })
