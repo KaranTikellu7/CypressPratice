@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/KaranTikellu7/CypressPratice#readme",
   "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
     "cypress": "^14.5.3"
   }
 }
