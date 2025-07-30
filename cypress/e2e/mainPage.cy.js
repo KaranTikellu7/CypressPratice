@@ -5,11 +5,12 @@ describe('Main page', () => {
 
   beforeEach(()=>{
     cy.visit('/')
-
   })
  
   it('Verify Main Page', () => {
     mainPage.verifyNavLinks()
     mainPage.verifyAdvertisementCard()
+    mainPage.verifyFilterTextbox()
+    mainPage.verifyProductTable()
   })
 })

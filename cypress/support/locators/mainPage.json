@@ -1,7 +1,13 @@
 {
-    "mainPageNavLinks" : "//div[@class='nav-links ']/a",
-    "banner": "//div[@data-testid='banner-container']",
-    "bannerText": "//p[@data-testid='banner-text']",
-    "bannerAdvertismentLink": "//a[@data-testid='banner-advert-link']"
-    
+  "mainPageNavLinks": "//div[@class='nav-links ']/a",
+  "banner": "//div[@data-testid='banner-container']",
+  "bannerText": "//p[@data-testid='banner-text']",
+  "bannerAdvertismentLink": "//a[@data-testid='banner-advert-link']",
+  "filterTextbox": "//div[@class='filter-container']/input",
+  "filterButton": "//button[@data-testid='filter-button']",
+  "resetButton": "//button[@data-testid='reset-filter-button']",
+  "productListTable": "//table[@class='product-list-table']",
+  "productListTableColumn": "//table[@class='product-list-table']/thead/tr/th",
+  "showMoreButton": "//button[@data-testid='show-more-button']",
+  "addProductButton": "//a[@data-testid='add-a-product-button']"
 }
