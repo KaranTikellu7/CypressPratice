@@ -2,10 +2,14 @@ import MainPage from '../support/pages/mainPage'
 
 describe('Main page', () => {
   const mainPage = new MainPage()
- 
-  it('Verify Main Page', () => {
+
+  beforeEach(()=>{
     cy.visit('/')
 
+  })
+ 
+  it('Verify Main Page', () => {
     mainPage.verifyNavLinks()
+    mainPage.verifyAdvertisementCard()
   })
 })
