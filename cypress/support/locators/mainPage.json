@@ -1,0 +1,7 @@
+{
+    "mainPageNavLinks" : "//div[@class='nav-links ']/a",
+    "banner": "//div[@data-testid='banner-container']",
+    "bannerText": "//p[@data-testid='banner-text']",
+    "bannerAdvertismentLink": "//a[@data-testid='banner-advert-link']"
+    
+}
